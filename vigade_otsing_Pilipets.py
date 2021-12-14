@@ -85,7 +85,7 @@ def keskmine(loend:list,n:int)->float:
         sum=0
         for i in loend:
             sum+=i
-            kesk=round(sum/n,2)
+        kesk=round(sum/n,2)
     return kesk
 
 def lisamine(loend:list,el:float)->list:
