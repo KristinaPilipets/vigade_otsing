@@ -29,7 +29,6 @@ def arvud_loendis():
     s=lisamine(s,kesk)
     print("Среднее отрицательных:",kesk)
     print("Добавляем средние в изначалный массив:")
-    s.sort()
     print(s)
 
 def vahetus(a:int,b:int)->int:
