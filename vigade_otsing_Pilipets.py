@@ -23,7 +23,7 @@ def arvud_loendis():
     print("Список отрицательных элементов",neg)
     print("Список нулевых элементов",null)
     kesk=keskmine(pos)
-    lisamine(s,kesk)
+    s=lisamine(s,kesk)
     print("Среднее положительных:",kesk)
     kesk=keskmine(neg)
     s=lisamine(s,kesk)
