@@ -75,7 +75,6 @@ def jagamine(loend:list,p:list,n:list,nol:list)->list:
 def keskmine(loend:list)->float:
     """Вычисление среднего значения из списка
     :param list loend: список с числами
-    :param int n: список с отрицательными/положительными числами
     :rtype float:
     """
     n=len(loend)
