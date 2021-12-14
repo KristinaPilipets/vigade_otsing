@@ -22,10 +22,10 @@ def arvud_loendis():
     print("Список положительных элементов",pos)
     print("Список отрицательных элементов",neg)
     print("Список нулевых элементов",null)
-    kesk=keskmine(pos,n)
+    kesk=keskmine(pos)
     lisamine(s,kesk)
     print("Среднее положительных:",kesk)
-    kesk=keskmine(neg,n)
+    kesk=keskmine(neg)
     s=lisamine(s,kesk)
     print("Среднее отрицательных:",kesk)
     print("Добавляем средние в изначалный массив:")
@@ -72,7 +72,7 @@ def jagamine(loend:list,p:list,n:list,nol:list)->list:
             nol.append(el)
     return p,n,nol
 
-def keskmine(loend:list,n:int)->float:
+def keskmine(loend:list)->float:
     """Вычисление среднего значения из списка
     :param list loend: список с числами
     :param int n: список с отрицательными/положительными числами
